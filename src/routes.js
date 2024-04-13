@@ -26,6 +26,10 @@ const routes = [
     element: <Actors />,
     errorElement: <ErrorPage />
    },
+   {
+    path: '*',
+    element: <ErrorPage />
+  }
   ];
 
 export default routes;
